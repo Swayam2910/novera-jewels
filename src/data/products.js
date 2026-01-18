@@ -4,34 +4,39 @@ export const products = [
         name: "Ethereal Gold Ring",
         category: "rings",
         price: 450,
-        image: "/images/rings/ring1.jpg"
+        modelNumber: "R-001",
+        image: "images/rings/ring1.jpg"
     },
     {
         id: 2,
         name: "Diamond Solitaire Ring",
         category: "rings",
         price: 1200,
-        image: "/images/rings/ring2.webp"
+        modelNumber: "R-002",
+        image: "images/rings/ring2.webp"
     },
     {
         id: 3,
         name: "Vintage Silver Band",
         category: "rings",
         price: 350,
-        image: "/images/rings/ring3.webp"
+        modelNumber: "R-003",
+        image: "images/rings/ring3.webp"
     },
     {
         id: 4,
         name: "Sapphire Pendant",
         category: "pendants",
         price: 890,
-        image: "/images/pendants/pendant1.webp"
+        modelNumber: "P-001",
+        image: "images/pendants/pendant1.webp"
     },
     {
         id: 5,
         name: "Gold Chain Necklace",
         category: "pendants",
         price: 550,
+        modelNumber: "P-002",
         image: "/images/pendants/pendant2.webp"
     },
     {
@@ -39,13 +44,15 @@ export const products = [
         name: "Pearl Drop Pendant",
         category: "pendants",
         price: 420,
-        image: "/images/pendants/pendant3.webp"
+        modelNumber: "P-003",
+        image: "images/pendants/pendant3.webp"
     },
     {
         id: 7,
         name: "Minimalist Cuff",
         category: "bracelets",
         price: 300,
+        modelNumber: "B-001",
         image: "/images/bracelets/bracelet1.webp"
     },
     {
@@ -53,13 +60,15 @@ export const products = [
         name: "Charm Bracelet",
         category: "bracelets",
         price: 480,
-        image: "/images/bracelets/bracelet2.webp"
+        modelNumber: "B-002",
+        image: "images/bracelets/bracelet2.webp"
     },
     {
         id: 9,
         name: "Tennis Bracelet",
         category: "bracelets",
         price: 1500,
-        image: "/images/bracelets/bracelet3.webp"
+        modelNumber: "B-003",
+        image: "images/bracelets/bracelet3.webp"
     }
 ];

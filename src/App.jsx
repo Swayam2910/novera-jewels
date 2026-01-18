@@ -51,11 +51,10 @@ function App() {
             <div className="product-info">
               <div className="product-meta">
                 <span className="product-category">{product.category}</span>
-                {product.modelNumber && (
-                  <span className="product-model">{product.modelNumber}</span>
-                )}
               </div>
-              <h3 className="product-name">{product.name}</h3>
+              <h3 className="product-name">
+                {product.name} <span className="model-number">({product.modelNumber})</span>
+              </h3>
               <div className="product-price">${product.price}</div>
             </div>
           </div>
