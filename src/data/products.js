@@ -70,5 +70,29 @@ export const products = [
         price: 1500,
         modelNumber: "B-003",
         image: "images/bracelets/bracelet3.webp"
+    },
+    {
+        id: 10,
+        name: "Minimalist Cuff",
+        category: "earrings",
+        price: 300,
+        modelNumber: "E-001",
+        image: "/images/bracelets/bracelet1.webp"
+    },
+    {
+        id: 11,
+        name: "Charm Bracelet",
+        category: "earrings",
+        price: 480,
+        modelNumber: "E-002",
+        image: "images/bracelets/bracelet2.webp"
+    },
+    {
+        id: 12,
+        name: "Tennis Bracelet",
+        category: "earrings",
+        price: 1500,
+        modelNumber: "E-003",
+        image: "images/bracelets/bracelet3.webp"
     }
 ];

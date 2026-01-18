@@ -9,7 +9,7 @@ function App() {
     return products.filter(product => product.category === activeCategory);
   }, [activeCategory]);
 
-  const categories = ['all', 'rings', 'pendants', 'bracelets'];
+  const categories = ['earrings', 'rings', 'pendants', 'bracelets'];
 
   return (
     <div className="container">
@@ -20,6 +20,9 @@ function App() {
             <span className="logo-subtitle">Jewels</span>
           </div>
           <p className="brand-tagline">Anti-tarnish Everyday Jewellery</p>
+          <a href="https://www.instagram.com/novera.jewels?igsh=MW9qcGQ3dDN3ZWZsOQ==" target="_blank" rel="noreferrer" className="dm-link">
+            DM to Order on Instagram ↗
+          </a>
         </div>
       </header>
 
@@ -66,11 +69,12 @@ function App() {
           <div className="footer-section">
             <h4>Contact Us</h4>
             <p>+91 7425092266</p>
+            <p>+91 7726920606</p>
           </div>
           <div className="footer-section">
             <h4>Follow Us</h4>
-            <a href="https://instagram.com" target="_blank" rel="noreferrer" className="social-link">
-              @noverajewels
+            <a href="https://www.instagram.com/novera.jewels?igsh=MW9qcGQ3dDN3ZWZsOQ==" target="_blank" rel="noreferrer" className="social-link">
+              @novera.jewels
             </a>
           </div>
         </div>
