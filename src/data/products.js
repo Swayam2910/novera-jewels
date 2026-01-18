@@ -6,7 +6,7 @@ export const products = [
         price: 79,
         unit: "each",
         modelNumber: "R001",
-        image: "images/rings/R001.png"
+        image: "images/rings/R001.jpg"
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ export const products = [
         price: 69,
         unit: "each",
         modelNumber: "R002",
-        image: "images/rings/R002.png"
+        image: "images/rings/R002.jpg"
     },
     {
         id: 3,
@@ -24,7 +24,7 @@ export const products = [
         price: 99,
         unit: "each",
         modelNumber: "R003",
-        image: "images/rings/R003.png"
+        image: "images/rings/R003.jpg"
     },
     {
         id: 4,
@@ -56,7 +56,7 @@ export const products = [
         category: "bracelets",
         price: 249,
         modelNumber: "B001",
-        image: "images/bracelets/B001.png"
+        image: "images/bracelets/B001.jpg"
     },
     {
         id: 8,
@@ -64,7 +64,7 @@ export const products = [
         category: "bracelets",
         price: 249,
         modelNumber: "B002",
-        image: "images/bracelets/B002.png"
+        image: "images/bracelets/B002.jpg"
     },
     {
         id: 9,
@@ -72,7 +72,7 @@ export const products = [
         category: "bracelets",
         price: 249,
         modelNumber: "B003",
-        image: "images/bracelets/B003.png"
+        image: "images/bracelets/B003.jpg"
     },
     {
         id: 10,
@@ -80,7 +80,7 @@ export const products = [
         category: "bracelets",
         price: 199,
         modelNumber: "B004",
-        image: "images/bracelets/B004.png"
+        image: "images/bracelets/B004.jpg"
     },
     {
         id: 11,
