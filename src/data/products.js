@@ -1,27 +1,30 @@
 export const products = [
     {
         id: 1,
-        name: "Ethereal Gold Ring",
+        name: "Dainty Thin Rings",
         category: "rings",
-        price: 450,
-        modelNumber: "R-001",
-        image: "images/rings/ring1.jpg"
+        price: 79,
+        unit: "each",
+        modelNumber: "R001",
+        image: "images/rings/R001.png"
     },
     {
         id: 2,
-        name: "Diamond Solitaire Ring",
+        name: "Glow Curve Rings",
         category: "rings",
-        price: 1200,
-        modelNumber: "R-002",
-        image: "images/rings/ring2.webp"
+        price: 69,
+        unit: "each",
+        modelNumber: "R002",
+        image: "images/rings/R002.png"
     },
     {
         id: 3,
-        name: "Vintage Silver Band",
+        name: "Bold Gold Rings",
         category: "rings",
-        price: 350,
-        modelNumber: "R-003",
-        image: "images/rings/ring3.webp"
+        price: 99,
+        unit: "each",
+        modelNumber: "R003",
+        image: "images/rings/R003.png"
     },
     {
         id: 4,
@@ -49,46 +52,54 @@ export const products = [
     },
     {
         id: 7,
-        name: "Minimalist Cuff",
+        name: "Moltan Drop Cuff",
         category: "bracelets",
-        price: 300,
-        modelNumber: "B-001",
-        image: "/images/bracelets/bracelet1.webp"
+        price: 249,
+        modelNumber: "B001",
+        image: "images/bracelets/B001.png"
     },
     {
         id: 8,
-        name: "Charm Bracelet",
+        name: "Orbit Cuff",
         category: "bracelets",
-        price: 480,
-        modelNumber: "B-002",
-        image: "images/bracelets/bracelet2.webp"
+        price: 249,
+        modelNumber: "B002",
+        image: "images/bracelets/B002.png"
     },
     {
         id: 9,
-        name: "Tennis Bracelet",
+        name: "Sculpted Cuff",
         category: "bracelets",
-        price: 1500,
-        modelNumber: "B-003",
-        image: "images/bracelets/bracelet3.webp"
+        price: 249,
+        modelNumber: "B003",
+        image: "images/bracelets/B003.png"
     },
     {
         id: 10,
+        name: "Twin Star Bracelet",
+        category: "bracelets",
+        price: 199,
+        modelNumber: "B004",
+        image: "images/bracelets/B004.png"
+    },
+    {
+        id: 11,
         name: "Minimalist Cuff",
         category: "earrings",
         price: 300,
         modelNumber: "E-001",
-        image: "/images/bracelets/bracelet1.webp"
+        image: "images/bracelets/IMG_1425.png"
     },
     {
-        id: 11,
+        id: 12,
         name: "Charm Bracelet",
         category: "earrings",
         price: 480,
         modelNumber: "E-002",
-        image: "images/bracelets/bracelet2.webp"
+        image: "images/bracelets/IMG_1426.png"
     },
     {
-        id: 12,
+        id: 13,
         name: "Tennis Bracelet",
         category: "earrings",
         price: 1500,

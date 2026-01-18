@@ -58,7 +58,9 @@ function App() {
               <h3 className="product-name">
                 {product.name} <span className="model-number">({product.modelNumber})</span>
               </h3>
-              <div className="product-price">${product.price}</div>
+              <div className="product-price">
+                Rs {product.price} {product.unit && <span className="product-unit">{product.unit}</span>}
+              </div>
             </div>
           </div>
         ))}

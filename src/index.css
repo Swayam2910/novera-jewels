@@ -404,6 +404,12 @@ h6 {
     font-size: 0.9rem;
   }
 
+  .product-unit {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    font-weight: 300;
+  }
+
   .footer-content {
     flex-direction: column;
     gap: 2rem;
