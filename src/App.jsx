@@ -21,7 +21,7 @@ function App() {
           </div>
           <p className="brand-tagline">Anti-tarnish Everyday Jewellery</p>
           <a href="https://www.instagram.com/novera.jewels?igsh=MW9qcGQ3dDN3ZWZsOQ==" target="_blank" rel="noreferrer" className="dm-link">
-            DM to Order on Instagram ↗
+            DM to Order on Instagram <span style={{ fontFamily: 'sans-serif' }}>→</span>
           </a>
         </div>
       </header>
