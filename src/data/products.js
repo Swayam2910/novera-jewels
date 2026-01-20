@@ -28,30 +28,38 @@ export const products = [
     },
     {
         id: 4,
-        name: "Sapphire Pendant",
+        name: "Gold Heart Necklace",
         category: "pendants",
-        price: 890,
-        modelNumber: "P-001",
-        image: "images/pendants/pendant1.webp"
+        price: 139,
+        modelNumber: "P001",
+        image: "images/pendants/P001.jpg"
     },
     {
         id: 5,
-        name: "Gold Chain Necklace",
+        name: "Prism Necklace",
         category: "pendants",
-        price: 550,
-        modelNumber: "P-002",
-        image: "/images/pendants/pendant2.webp"
+        price: 249,
+        modelNumber: "P002",
+        image: "images/pendants/P002.jpg"
     },
     {
         id: 6,
-        name: "Pearl Drop Pendant",
+        name: "Luxe Bow Necklace",
         category: "pendants",
-        price: 420,
-        modelNumber: "P-003",
-        image: "images/pendants/pendant3.webp"
+        price: 139,
+        modelNumber: "P003",
+        image: "images/pendants/P003.jpg"
     },
     {
         id: 7,
+        name: "Bloom Necklace",
+        category: "pendants",
+        price: 139,
+        modelNumber: "P004",
+        image: "images/pendants/P004.jpg"
+    },
+    {
+        id: 8,
         name: "Moltan Drop Cuff",
         category: "bracelets",
         price: 249,
@@ -59,7 +67,7 @@ export const products = [
         image: "images/bracelets/B001.jpg"
     },
     {
-        id: 8,
+        id: 9,
         name: "Orbit Cuff",
         category: "bracelets",
         price: 249,
@@ -67,7 +75,7 @@ export const products = [
         image: "images/bracelets/B002.jpg"
     },
     {
-        id: 9,
+        id: 10,
         name: "Sculpted Cuff",
         category: "bracelets",
         price: 249,
@@ -75,7 +83,7 @@ export const products = [
         image: "images/bracelets/B003.jpg"
     },
     {
-        id: 10,
+        id: 11,
         name: "Twin Star Bracelet",
         category: "bracelets",
         price: 199,
@@ -83,7 +91,7 @@ export const products = [
         image: "images/bracelets/B004.jpg"
     },
     {
-        id: 11,
+        id: 12,
         name: "Minimalist Cuff",
         category: "earrings",
         price: 300,
@@ -91,7 +99,7 @@ export const products = [
         image: "images/bracelets/IMG_1425.png"
     },
     {
-        id: 12,
+        id: 13,
         name: "Charm Bracelet",
         category: "earrings",
         price: 480,
@@ -99,7 +107,7 @@ export const products = [
         image: "images/bracelets/IMG_1426.png"
     },
     {
-        id: 13,
+        id: 14,
         name: "Tennis Bracelet",
         category: "earrings",
         price: 1500,
