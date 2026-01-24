@@ -92,26 +92,82 @@ export const products = [
     },
     {
         id: 12,
-        name: "Minimalist Cuff",
+        name: "Gilded Shell Earrings",
         category: "earrings",
-        price: 300,
-        modelNumber: "E-001",
-        image: "images/bracelets/IMG_1425.png"
+        price: 129,
+        modelNumber: "E001",
+        image: "images/earrings/E001.jpg"
     },
     {
         id: 13,
-        name: "Charm Bracelet",
+        name: "Golden Curve Studs",
         category: "earrings",
-        price: 480,
-        modelNumber: "E-002",
-        image: "images/bracelets/IMG_1426.png"
+        price: 79,
+        modelNumber: "E002",
+        image: "images/earrings/E002.jpg"
     },
     {
         id: 14,
-        name: "Tennis Bracelet",
+        name: "Gilded Arc Studs",
         category: "earrings",
-        price: 1500,
-        modelNumber: "E-003",
-        image: "images/bracelets/bracelet3.webp"
+        price: 79,
+        modelNumber: "E003",
+        image: "images/earrings/E003.jpg"
+    },
+    {
+        id: 15,
+        name: "Bow Studs",
+        category: "earrings",
+        price: 119,
+        modelNumber: "E004",
+        image: "images/earrings/E004.jpg"
+    },
+    {
+        id: 16,
+        name: "Structured Gold Studs",
+        category: "earrings",
+        price: 79,
+        modelNumber: "E005",
+        image: "images/earrings/E005.jpg"
+    },
+    {
+        id: 17,
+        name: "Heart Studs",
+        category: "earrings",
+        price: 119,
+        modelNumber: "E006",
+        image: "images/earrings/E006.jpg"
+    },
+    {
+        id: 18,
+        name: "Nova Melt Studs",
+        category: "earrings",
+        price: 119,
+        modelNumber: "E007",
+        image: "images/earrings/E007.jpg"
+    },
+    {
+        id: 19,
+        name: "Loop Studs",
+        category: "earrings",
+        price: 79,
+        modelNumber: "E008",
+        image: "images/earrings/E008.jpg"
+    },
+    {
+        id: 20,
+        name: "Folding Heart Earrings",
+        category: "earrings",
+        price: 119,
+        modelNumber: "E009",
+        image: "images/earrings/E009.jpg"
+    },
+    {
+        id: 21,
+        name: "Curve Coil Earrings",
+        category: "earrings",
+        price: 129,
+        modelNumber: "E010",
+        image: "images/earrings/E010.jpg"
     }
 ];

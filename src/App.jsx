@@ -3,6 +3,7 @@ import { products } from './data/products';
 
 function App() {
   const [activeCategory, setActiveCategory] = useState('all');
+  const [selectedProduct, setSelectedProduct] = useState(null);
 
   const filteredProducts = useMemo(() => {
     if (activeCategory === 'all') return products;
@@ -40,7 +41,11 @@ function App() {
 
       <main className="product-grid">
         {filteredProducts.map(product => (
-          <div key={product.id} className="product-card">
+          <div
+            key={product.id}
+            className="product-card"
+            onClick={() => setSelectedProduct(product)}
+          >
             <div className="image-container">
               <img
                 src={product.image}
@@ -65,6 +70,20 @@ function App() {
           </div>
         ))}
       </main>
+
+      {selectedProduct && (
+        <div className="modal-overlay" onClick={() => setSelectedProduct(null)}>
+          <div className="modal-content" onClick={e => e.stopPropagation()}>
+            <button className="close-button" onClick={() => setSelectedProduct(null)}>&times;</button>
+            <img
+              src={selectedProduct.image}
+              alt={selectedProduct.name}
+              className="modal-image"
+            />
+            <h3 className="modal-title">{selectedProduct.name}</h3>
+          </div>
+        </div>
+      )}
 
       <footer className="site-footer">
         <div className="footer-content">
