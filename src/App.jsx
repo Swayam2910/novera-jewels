@@ -42,7 +42,7 @@ function App() {
       <main className="product-grid">
         {filteredProducts.map(product => (
           <div
-            key={product.id}
+            key={product.modelNumber}
             className="product-card"
             onClick={() => setSelectedProduct(product)}
           >
