@@ -24,25 +24,11 @@ export const products = [
         image: "images/rings/R003.jpg"
     },
     {
-        name: "Gold Heart Necklace",
-        category: "pendants",
-        price: 139,
-        modelNumber: "P001",
-        image: "images/pendants/P001.jpg"
-    },
-    {
         name: "Prism Necklace",
         category: "pendants",
         price: 249,
         modelNumber: "P002",
         image: "images/pendants/P002.jpg"
-    },
-    {
-        name: "Luxe Bow Necklace",
-        category: "pendants",
-        price: 139,
-        modelNumber: "P003",
-        image: "images/pendants/P003.jpg"
     },
     {
         name: "Bloom Necklace",
@@ -85,13 +71,6 @@ export const products = [
         price: 149,
         modelNumber: "B005",
         image: "images/bracelets/B005.jpg"
-    },
-    {
-        name: "Gilded Shell Earrings",
-        category: "earrings",
-        price: 129,
-        modelNumber: "E001",
-        image: "images/earrings/E001.jpg"
     },
     {
         name: "Golden Curve Studs",
@@ -155,13 +134,6 @@ export const products = [
         price: 129,
         modelNumber: "E010",
         image: "images/earrings/E010.jpg"
-    },
-    {
-        name: "Petal earrings",
-        category: "earrings",
-        price: 119,
-        modelNumber: "E011",
-        image: "images/earrings/E011.jpg"
     },
     {
         name: "Molten Hoops",
